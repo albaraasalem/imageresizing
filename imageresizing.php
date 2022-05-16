@@ -2,7 +2,9 @@
 /*
 By: Albara'a Salem
 File adds white border to images on toysonfire.ca website that 
-are less than 500px for both width and height. 
+are less than 500px for both width and height and makes them a 
+minimum of 500x500px to meet BestBuy's requirements for data 
+sent on the server side.
 
 May 11th, 2022
 Version: 1.0
