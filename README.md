@@ -8,4 +8,5 @@ or height before being sent to BestBuy.ca.
 
 # How it works
 This php file processes images by acquiring their id number and checking their dimenions. If either the height, width or both are under 500px, 
-then we must add a white border around the image enough so that it meets the 500x500px requirement. 
+then we must add a white border around the image enough so that it meets the 500x500px requirement. For the images that are already greater than
+or equal to the required dimensions, no modifications are done to them. 
